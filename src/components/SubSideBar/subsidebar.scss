@@ -1,0 +1,53 @@
+.subsidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 34px;
+  list-style-type: none;
+  width: 481px;
+  background-image: url("../../assets/Images/Divider.png");
+  background-repeat: no-repeat;
+  background-position: center 57px;
+}
+
+body {
+  background-color: #252836;
+}
+
+.subsidebar__item {
+  position: relative;
+}
+
+.subsidebar__link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.item__active {
+  color: #ea7c69;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #EA7C69;
+}
+
+.subsidebar__line {
+  width: 100%;
+  height: 3px;
+  background: #EA7C69;
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  bottom: -16px;
+}
+
+.item__active ~ .subsidebar__line {
+  display: block;
+}

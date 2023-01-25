@@ -1,0 +1,84 @@
+.most-ordered {
+  background: #1F1D2B;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 24px;
+}
+
+.most-ordered__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.most-ordered__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.most-ordered__title {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.most-ordered__select {
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  appearance: none;
+  padding: 14px;
+  padding-left: 44px;
+  background-image: url("../../assets/Images/arrow-ios-down.svg");
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+}
+
+.most-ordered__item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+.most-ordered__name {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #E0E6E9;
+  margin-bottom: 4px;
+}
+
+.most-ordered__count {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+
+.most-ordered__img {
+  margin-right: 14px;
+}
+
+.most-ordered__btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #EA7C69;
+  border: 1px solid #EA7C69;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 14px 138px;
+}

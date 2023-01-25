@@ -1,0 +1,54 @@
+.hotdishes__item {
+  background: #1F1D2B;
+  border-radius: 16px;
+  width: 30%;
+  position: relative;
+  padding-top: 124px;
+  margin-bottom: 60px;
+  padding-bottom: 24px;
+}
+
+.hotdishes__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hotdishes__img {
+  position: absolute;
+  top: -40px;
+  left: 35px;
+}
+
+.hotdishes__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hotdishes__price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.hotdishes__bowls {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #ABBBC2;
+  margin: 0;
+}

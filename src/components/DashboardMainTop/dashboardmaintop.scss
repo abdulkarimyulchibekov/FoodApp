@@ -1,0 +1,48 @@
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.main__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.main__select {
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  padding: 14px;
+  padding-left: 44px;
+  appearance: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+  background-image: url("../../assets/Images/filter.svg");
+  background-repeat: no-repeat;
+  background-position: left 15px center;
+}
+
+.main__hero {
+  padding-bottom: 16px;
+}
+
+.main__hero {
+  display: flex;
+  align-items: center;
+}
+
+.main__secondary-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0;
+}

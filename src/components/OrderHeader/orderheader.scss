@@ -1,0 +1,58 @@
+.order__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.order__btn {
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #EA7C69;
+  padding: 7px 12px;
+  margin-right: 8px;
+}
+
+.order__top {
+  padding-bottom: 24px;
+}
+
+
+.order__input {
+  display: none;
+}
+
+.checked~span {
+  background: #EA7C69;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 7px 12px;
+}
+
+.order__bottom {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  background-image: url("../../assets/Images/Divider.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+.order__type {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin: 0;
+}

@@ -1,0 +1,74 @@
+.main__item {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main__first-box {
+  display: flex;
+  align-items: center;
+  margin-right: 67px;
+}
+
+.main__user-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.main__main-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  width: 137px;
+  margin: 0;
+  margin-right: 32px;
+}
+
+.main__price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  margin-right: 121px;
+}
+
+.Completed {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #50D1AA;
+  background: rgba(107, 226, 190, 0.24);
+  border-radius: 30px;
+  padding: 4px 12px;
+  border: none;
+}
+
+.Preparing {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #9290FE;
+  background: rgba(146, 144, 254, 0.2);
+  border-radius: 30px;
+  padding: 4px 15.5px;
+  border: none;
+}
+
+.Pending {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFB572;
+  background: rgba(255, 181, 114, 0.2);
+  border-radius: 30px;
+  border: none;
+  padding: 4px 20.5px;
+}
